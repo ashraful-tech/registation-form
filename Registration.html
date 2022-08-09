@@ -21,10 +21,18 @@
         <input type="date" name="date" id="date">
     <br>
     <label for="name">Title/Name of Account: </label>
-    <input type="name" name="name" id="name">
+    <input type="name" name="name" id="name" required>
     <br>
-    <label for=""></label>
-    <input type="checkbox" >
+    <label for="national">Nationality</label>
+    <input type="checkbox" name="national" id="bd" value="bd" >
+    <label for="bd">Bangladeshi</label>
+    <input type="checkbox" name="national" id="fr" value="fr" >
+    <label for="fr">Foreign</label>
+    <input type="checkbox" name="national" id="oth" value="oth">
+    <label for="oth">Dual Citizen</label>
+    <br>
+    <label for="mob">Mobile No:</label>
+    <input type="number" name="mob" id="mob" value="mob">
     <br>
     <label for="accountType">Type of account:</label>
     <input type="radio" id="savings" name="accountType" value="savings">
@@ -86,4 +94,3 @@
     <input type="submit" value="save" name="submit">
     </form>   
 </body>
-</html>
