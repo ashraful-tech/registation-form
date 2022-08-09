@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registation form</title>
+    <style>
+    th, td {
+  border: 1px solid red;
+  border-radius: 20px;
+  /* border-collapse: collapse; */
+  background-color: aqua;
+}
+    </style>
+</head>
+<body>
+    <center><h1> Account opening form</h1></center>
+    <form action="" method="get">
+            <label for="date">Date: </label>
+        <input type="date" name="date" id="date">
+    <br>
+    <label for="name">Title/Name of Account: </label>
+    <input type="name" name="name" id="name">
+    <br>
+    <label for=""></label>
+    <input type="checkbox" >
+    <br>
+    <label for="accountType">Type of account:</label>
+    <input type="radio" id="savings" name="accountType" value="savings">
+    <label for="savings">SAVINGS</label>
+    <input type="radio" id="currents" name="accountType" value="currents">
+    <label for="currents">CURRENTS</label>
+    <input type="radio" id="snd" name="accountType" value="snd">
+    <label for="snd">SND</label>
+    <input type="radio" id="fc" name="accountType" value="fc">
+    <label for="fc">FC</label>
+    <input type="radio" id="rfcd" name="accountType" value="rfcd">
+    <label for="rfcd">RFCD</label>
+    <input type="radio" id="nfcd" name="accountType" value="nfcd">
+    <label for="nfcd">NFCD</label>
+    <input type="radio" id="fixed" name="accountType" value="fixed">
+    <label for="fixed">FIXED</label>
+    <input type="radio" name="accountType" id="other" value="other">
+    <label for="other">OTHERS</label>
+    <br>
+    <label for="currency">CURRENCY: </label>
+    <input type="radio" name="currency" id="taka" value="taka">
+    <label for="taka">TAKA</label>
+    <input type="radio" name="currency" id="us" value="us">
+    <label for="us">US doller</label>
+    <input type="radio" name="currency" id="pound" value="pound">
+    <label for="pound">POUND</label>
+    <br>
+    <label for="operating">OPERATING INSTREUCTION: </label>
+    <input type="radio" name="operating" id="single" value="single">
+    <label for="single">SINGLY</label>
+    <input type="radio" name="operating" id="join" value="join">
+    <label for="join">JOINTLY</label>
+    <input type="radio" name="operating" id="others" value="others">
+    <label for="others">OTHERS</label>
+    <br>
+    <label for="message">PURPOSE of opening Account</label><br>
+    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+    <br>
+    <label for="">Nominies:</label>
+    <table>
+        <br>
+    <tr>
+        <th>Name</th>
+        <th>Nid</th>
+        <th>Phone no</th>
+    </tr>
+    <tr>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+    </tr>
+    </table>
+
+    <input type="submit" value="save" name="submit">
+    </form>   
+</body>
+</html>
